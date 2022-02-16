@@ -47,6 +47,11 @@ Pagina para probar Einstein Bot
 		},{
  			"label":"Email", 
   			"transcriptFields": ["Email__c"]
+		},{
+ 			"label": "Source URL",
+  			"value": window.location.href,
+  			"displayToAgent": true,
+  			"transcriptFields" : ["visitor_url__c"]
 		}];
 
 		embedded_svc.init(
